@@ -1,0 +1,64 @@
+/*csslint empty-rules: false, ids: false, qualified-headings: false, known-properties: false*/
+
+/* Copyright (c) 2020 The Learning Den */
+
+/************************* TAG SELECTORS *************************/
+body {
+  background-color: #333333;
+  min-height: 100vh;
+  position: relative;
+  text-align: center;
+}
+
+button {
+  background-color:#f5f5f5;
+  border: none;
+  border-radius:4px;
+  box-shadow: 0 5px 7px -3px #202020;
+  color: #202020;
+  height: 30px;
+  margin-top: 30px;
+  width: 90px;
+}
+
+button:hover {
+	opacity: 75%;
+}
+
+div {
+  color: #f5f5f5;
+}
+
+footer {
+  color: #f5f5f5;
+  margin-top: 15%;
+}
+
+h1 {
+  color: #ffd8a6;
+  font-family: 'Kreon', serif;
+  font-size: 5rem;
+  margin: 30px;
+  text-shadow: 5px 0 #232931;
+}
+
+/************************ CLASS SELECTORS ************************/
+.container {
+  margin: auto;
+  width: 70%;
+}
+
+.content {
+  display: inline-block;
+  font-size: 2rem;
+  height: 250px;
+  width: 250px;
+}
+
+/************************** ID SELECTORS *************************/
+#logo {
+  border-radius: 50%;
+  left: 5px;
+  position: absolute;
+  top: -10px;
+}
