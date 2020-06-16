@@ -38,6 +38,7 @@ p {
 
 .arrow:hover {
   cursor: pointer;
+  font-size: 11vw;
 }
 
 .color {
