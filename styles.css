@@ -8,7 +8,7 @@
 }
 
 body {
-  background-color: #333333;
+  background-color: #FF0000;
   color: #f5f5f5;
   margin: 0;
   min-height: 100vh;
@@ -21,9 +21,8 @@ footer {
 }
 
 header {
-  background-color: #202020;
+  background-color: #f5f5f5;
   margin-top: 0;
-  opacity: 98%;
   z-index: 1;
 }
 
@@ -33,13 +32,15 @@ h1 {
   font-size: 5rem;
   margin: 30px;
   /*margin: 30px 30px 80px 30px;*/
-  text-shadow: 5px 0 #232931;
+  text-shadow: 4px 0 #232931;
 }
 
 nav {
   align-items: center;
+  background-color: #002266;
   display: flex;
   height: 45px;
+  opacity: 85%;
 }
 
 /*nav a*/
